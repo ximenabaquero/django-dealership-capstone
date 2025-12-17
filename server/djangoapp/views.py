@@ -2,6 +2,7 @@ from django.http import JsonResponse
 from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.models import User
 from django.views.decorators.csrf import csrf_exempt
+from django.views.generic import TemplateView
 import json
 import os
 
@@ -44,6 +45,24 @@ def register_user(request):
     )
     login(request, user)
     return JsonResponse({"status": True, "userName": user.username})
+
+
+def _spa_index(request):
+    return TemplateView.as_view(template_name="index.html")(request)
+
+
+@csrf_exempt
+def login_route(request):
+    if request.method == "POST":
+        return login_user(request)
+    return _spa_index(request)
+
+
+@csrf_exempt
+def register_route(request):
+    if request.method == "POST":
+        return register_user(request)
+    return _spa_index(request)
 
 
 # ---------------- DEALERS ----------------

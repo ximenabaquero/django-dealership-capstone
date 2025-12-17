@@ -12,8 +12,8 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name="index.html")),
     path('about/', TemplateView.as_view(template_name="index.html")),
     path('contact/', TemplateView.as_view(template_name="index.html")),
-    path('login/', TemplateView.as_view(template_name="index.html")),
-    path('register/', TemplateView.as_view(template_name="index.html")),
+    path('login/', views.login_route, name='login_route'),
+    path('register/', views.register_route, name='register_route'),
     path('dealers/', TemplateView.as_view(template_name="index.html")),
 
     # --- API endpoints (JSON) ---
