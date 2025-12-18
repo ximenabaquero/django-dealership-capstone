@@ -1,0 +1,258 @@
+Internal Server Error: /djangoapp/login_api/
+Traceback (most recent call last):
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "c:\Users\pc\django-dealership-capstone\server\djangoapp\views.py", line 14, in login_user
+    body = json.loads(request.body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[17/Dec/2025 23:42:15] "POST /djangoapp/login_api/ HTTP/1.1" 500 82820
+Internal Server Error: /djangoapp/login_api/
+Traceback (most recent call last):
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "c:\Users\pc\django-dealership-capstone\server\djangoapp\views.py", line 14, in login_user
+    body = json.loads(request.body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[17/Dec/2025 23:43:41] "POST /djangoapp/login_api/ HTTP/1.1" 500 82820
+Internal Server Error: /djangoapp/login_api/
+Traceback (most recent call last):
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "c:\Users\pc\django-dealership-capstone\server\djangoapp\views.py", line 14, in login_user
+    body = json.loads(request.body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[17/Dec/2025 23:43:56] "POST /djangoapp/login_api/ HTTP/1.1" 500 82820
+Internal Server Error: /djangoapp/login_api/
+Traceback (most recent call last):
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "c:\Users\pc\django-dealership-capstone\server\djangoapp\views.py", line 14, in login_user
+    body = json.loads(request.body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[17/Dec/2025 23:45:36] "POST /djangoapp/login_api/ HTTP/1.1" 500 82820
+Internal Server Error: /djangoapp/login_api/
+Traceback (most recent call last):
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "c:\Users\pc\django-dealership-capstone\server\djangoapp\views.py", line 14, in login_user
+    body = json.loads(request.body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[17/Dec/2025 23:47:14] "POST /djangoapp/login_api/ HTTP/1.1" 500 82820
+Internal Server Error: /djangoapp/login_api/
+Traceback (most recent call last):
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "c:\Users\pc\django-dealership-capstone\server\djangoapp\views.py", line 14, in login_user
+    body = json.loads(request.body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[17/Dec/2025 23:48:15] "POST /djangoapp/login_api/ HTTP/1.1" 500 82820
+Internal Server Error: /djangoapp/login_api/
+Traceback (most recent call last):
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "c:\Users\pc\django-dealership-capstone\server\djangoapp\views.py", line 14, in login_user
+    body = json.loads(request.body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[17/Dec/2025 23:48:48] "POST /djangoapp/login_api/ HTTP/1.1" 500 82705
+[17/Dec/2025 23:48:48,984] - Broken pipe from ('127.0.0.1', 56607)
+Internal Server Error: /djangoapp/login_api/
+Traceback (most recent call last):
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "c:\Users\pc\django-dealership-capstone\server\djangoapp\views.py", line 14, in login_user
+    body = json.loads(request.body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[17/Dec/2025 23:49:13] "POST /djangoapp/login_api/ HTTP/1.1" 500 82820
+[17/Dec/2025 23:49:13,795] - Broken pipe from ('127.0.0.1', 55180)
+Internal Server Error: /djangoapp/login_api/
+Traceback (most recent call last):
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "c:\Users\pc\django-dealership-capstone\server\djangoapp\views.py", line 14, in login_user
+    body = json.loads(request.body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[17/Dec/2025 23:51:50] "POST /djangoapp/login_api/ HTTP/1.1" 500 82820
+Internal Server Error: /djangoapp/login_api/
+Traceback (most recent call last):
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "c:\Users\pc\django-dealership-capstone\server\djangoapp\views.py", line 14, in login_user
+    body = json.loads(request.body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[17/Dec/2025 23:52:34] "POST /djangoapp/login_api/ HTTP/1.1" 500 82820
+[17/Dec/2025 23:56:46] "POST /djangoapp/login_api/ HTTP/1.1" 200 51
+[17/Dec/2025 23:57:03] "POST /djangoapp/login_api/ HTTP/1.1" 200 51
+[17/Dec/2025 23:57:41] "POST /djangoapp/login_api/ HTTP/1.1" 200 51
+Internal Server Error: /djangoapp/login_api/
+Traceback (most recent call last):
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\django-dealership-capstone\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "c:\Users\pc\django-dealership-capstone\server\djangoapp\views.py", line 14, in login_user
+    body = json.loads(request.body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 348, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 50 (char 49)
+[17/Dec/2025 23:59:10] "POST /djangoapp/login_api/ HTTP/1.1" 500 79614
+[18/Dec/2025 00:05:06] "GET /about/ HTTP/1.1" 200 3321
+[18/Dec/2025 00:05:06] "GET /static/style.css HTTP/1.1" 304 0
+[18/Dec/2025 00:05:06] "GET /static/bootstrap.min.css HTTP/1.1" 304 0
+[18/Dec/2025 00:05:06] "GET /static/about-sales-team.jpeg HTTP/1.1" 200 6599
+[18/Dec/2025 00:05:06] "GET /static/about-manager.png HTTP/1.1" 200 190903
+[18/Dec/2025 00:05:06] "GET /static/about-euro-performance.jpg HTTP/1.1" 200 68982
+[18/Dec/2025 00:05:06] "GET /favicon.ico HTTP/1.1" 304 0
+[18/Dec/2025 00:05:07] "GET / HTTP/1.1" 200 3239
+[18/Dec/2025 00:05:07] "GET /static/car_dealership.jpg HTTP/1.1" 304 0
+[18/Dec/2025 00:05:10] "GET /login HTTP/1.1" 301 0
+[18/Dec/2025 00:05:10] "GET /login/ HTTP/1.1" 200 652
+[18/Dec/2025 00:05:10] "GET /static/js/main.a678e1bf.js HTTP/1.1" 304 0
+[18/Dec/2025 00:05:10] "GET /static/css/main.d9716fdc.css HTTP/1.1" 304 0
+[18/Dec/2025 00:05:20] "POST /djangoapp/login_api/ HTTP/1.1" 200 49
+[18/Dec/2025 00:05:20] "GET / HTTP/1.1" 200 3239
+[18/Dec/2025 00:05:21] "POST /djangoapp/login_api/ HTTP/1.1" 200 49
+[18/Dec/2025 00:05:21] "POST /djangoapp/login_api/ HTTP/1.1" 200 49
+[18/Dec/2025 00:17:37] "GET /djangoapp/reviews/dealer/15 HTTP/1.1" 200 729
+Not Found: /djangoapp/analyze_review/Fantastic services
+[18/Dec/2025 00:23:44] "GET /djangoapp/analyze_review/Fantastic%20services HTTP/1.1" 404 8921
+Not Found: /djangoapp/analyze_review/Fantastic services
+[18/Dec/2025 00:26:22] "GET /djangoapp/analyze_review/Fantastic%20services HTTP/1.1" 404 8921
+[18/Dec/2025 00:29:05] "GET /djangoapp/get_dealers/ HTTP/1.1" 200 7108
+[18/Dec/2025 00:29:05] "GET /djangoapp/reviews/dealer/15 HTTP/1.1" 200 729
+Not Found: /djangoapp/analyze_review/Fantastic services
+[18/Dec/2025 00:29:26] "GET /djangoapp/analyze_review/Fantastic%20services HTTP/1.1" 404 8921

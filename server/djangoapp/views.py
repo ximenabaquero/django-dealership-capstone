@@ -90,8 +90,44 @@ def _save_reviews_payload(payload):
 
 
 def _analyze_sentiment(_text):
-    # Minimal sentiment placeholder to satisfy UI expectations.
+    if not _text:
+        return "neutral"
+
+    text = str(_text).lower()
+
+    positive_keywords = (
+        "fantastic",
+        "great",
+        "excellent",
+        "amazing",
+        "awesome",
+        "good",
+        "love",
+        "perfect",
+        "recommend",
+    )
+    negative_keywords = (
+        "bad",
+        "terrible",
+        "awful",
+        "horrible",
+        "worst",
+        "poor",
+        "hate",
+        "disappoint",
+        "broken",
+    )
+
+    if any(k in text for k in positive_keywords):
+        return "positive"
+    if any(k in text for k in negative_keywords):
+        return "negative"
     return "neutral"
+
+
+def analyze_review(request, review_text):
+    sentiment = _analyze_sentiment(review_text)
+    return JsonResponse({"sentiment": sentiment})
 
 
 def get_dealers(request, state=None):

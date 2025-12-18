@@ -28,6 +28,7 @@ urlpatterns = [
     # --- Reviews / Cars endpoints used by React components ---
     path('dealer/<int:dealer_id>', views.dealer_detail, name='dealer_detail'),
     path('reviews/dealer/<int:dealer_id>', views.get_reviews_by_dealer, name='get_reviews_by_dealer'),
+    path('analyze_review/<path:review_text>', views.analyze_review, name='analyze_review'),
     path('get_cars', views.get_cars, name='get_cars'),
     path('add_review', views.add_review, name='add_review'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
