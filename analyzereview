@@ -1,5 +1,5 @@
 ﻿cURL Command:
-curl.exe -s -H "Accept: application/json" http://127.0.0.1:8000/djangoapp/analyze_review/Fantastic%20services
+curl.exe -s -H "Accept: application/json" "http://127.0.0.1:8000/djangoapp/analyze_review/Servicios%20fant%C3%A1sticos"
 
 Output:
 {"sentiment": "positive"}

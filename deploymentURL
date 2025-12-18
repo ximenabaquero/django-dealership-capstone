@@ -1,0 +1,6 @@
+PENDIENTE: pega aqui la URL de despliegue de tu aplicacion Django.
+
+Ejemplo de formato:
+https://<tu-app>.onrender.com
+https://<tu-app>.mybluemix.net
+https://<tu-app>.railway.app

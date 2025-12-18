@@ -1,6 +1,11 @@
-﻿PowerShell + cURL Command:
+﻿Login (PowerShell + cURL Command):
 $json='{"userName":"curluser","password":"curlpass123"}'; $json | curl.exe -s -X POST -H "Content-Type: application/json" -H "Accept: application/json" -c curl_cookies.txt --data-binary '@-' "http://127.0.0.1:8000/djangoapp/login_api/"
 
-Output:
+Login Output:
 {"status": "Authenticated", "userName": "curluser"}
 
+Logout cURL Command:
+curl.exe -s -X POST -H "Accept: application/json" -b curl_cookies.txt "http://127.0.0.1:8000/djangoapp/logout/"
+
+Output:
+{"userName": ""}

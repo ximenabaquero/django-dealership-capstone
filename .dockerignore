@@ -1,0 +1,12 @@
+.git
+.github
+.venv
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache
+**/node_modules
+server/frontend/node_modules
+server/frontend/build/static/js/*.map
+server/frontend/build/static/css/*.map

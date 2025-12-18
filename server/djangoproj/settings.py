@@ -22,23 +22,41 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY =\
-    'django-insecure-ccow$tz_=9%dxu4(0%^(z%nx32#s@(zt9$ih@)5l54yny)wm-0'
+SECRET_KEY = os.getenv(
+    "DJANGO_SECRET_KEY",
+    'django-insecure-ccow$tz_=9%dxu4(0%^(z%nx32#s@(zt9$ih@)5l54yny)wm-0',
+)
+
+
+def _env_bool(name: str, default: bool) -> bool:
+    raw = os.getenv(name)
+    if raw is None:
+        return default
+    return raw.strip().lower() in ("1", "true", "t", "yes", "y", "on")
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = _env_bool("DJANGO_DEBUG", True)
+
+
+def _env_csv(name: str):
+    raw = os.getenv(name)
+    if not raw:
+        return []
+    return [x.strip() for x in raw.split(",") if x.strip()]
+
 
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     '.proxy.cognitiveclass.ai',
-]
+] + _env_csv("DJANGO_ALLOWED_HOSTS")
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:3000',
     'https://*.proxy.cognitiveclass.ai',
-]
+] + _env_csv("DJANGO_CSRF_TRUSTED_ORIGINS")
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],

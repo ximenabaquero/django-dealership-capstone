@@ -97,6 +97,10 @@ def _analyze_sentiment(_text):
 
     positive_keywords = (
         "fantastic",
+        "fantastico",
+        "fantasticos",
+        "fantástico",
+        "fantásticos",
         "great",
         "excellent",
         "amazing",

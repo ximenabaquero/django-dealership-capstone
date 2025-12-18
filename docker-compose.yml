@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - DJANGO_DEBUG=False
+      # If your deployment uses a hostname, set this accordingly:
+      # - DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1,.proxy.cognitiveclass.ai

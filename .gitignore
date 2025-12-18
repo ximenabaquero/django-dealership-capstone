@@ -37,6 +37,14 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+# Local curl cookies / lab artifacts
+curl_cookies.txt
+
+# Local server logs
+django_server
+django_server.*
+*.err
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
